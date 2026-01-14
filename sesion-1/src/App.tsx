@@ -35,17 +35,7 @@ const App = () => {
 export default App;
 
 
-/**
- * Crear un componente que gestione una lista de contactos  el usuario pueda agregar y eliminar contactos para ello los requisitos son:
- * 
- * - Crear una interfaz Contacto con el id , nombre, telefono y email
- * -El componente debe de tenerner un pormulario con 3 inputs nombre, telefono y email y un boton para agregar el contacto , una lista que muestre todos los contactos , un boton para eliminar el contacto.
- * Las funcionalidades deben de ser : 
- * - agregar contacto (generar un id automatico con alguna libreria npm )
- * - eliminar contacto por su id 
- * -limpiar el formulario despues de limpiar 
- * -mostrar un mensaje sino hay contactos almacenados
- */
+
 
 
 

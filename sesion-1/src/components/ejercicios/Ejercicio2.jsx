@@ -28,8 +28,10 @@ type CampoUsuario = keyof Usuario
 
 export const Ejercicio2 = () => {
     const [usuario, setUsuario] = useState<Usuario>({nombre:"", edad:0});
+
     //const [usuario, setUsuario] = useState<Usuario | null >(null);
     const [productos, setProductos] = useState<Producto | null> (null)
+
     //cuando lo vaya a renderizar podre gestionar con el null si hay o no productos
     const [estado, setEstado] = useState<Estado>("pendiente"); //la variable de estado inicia en estado pendiente
 

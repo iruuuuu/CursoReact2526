@@ -26,7 +26,7 @@ export default function Ejercicio1() {
         { id: 3, nombre: 'Producto C', precio: 150, disponibilidad: true, categoria: 'Categoria 2' },
     ];
 
-function calcularTotal ( producto:[Producto]) : number {
+function calcularTotal ( productos: Producto[] ) : number {
     let total = 0;
     producto.forEach( prod => {
         if (prod.disponibilidad) {
